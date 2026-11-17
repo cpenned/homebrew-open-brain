@@ -7,7 +7,7 @@ cask "open-brain" do
   desc "Native Mac app for Open Brain"
   homepage "https://github.com/cpenned/homebrew-open-brain"
 
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "Open Brain.app"
 
